@@ -95,7 +95,7 @@ form {
     font-weight:normal;
 }
 #submit:hover {
-    background-color:#9CC6E7;
+    background-color:#abd0ed;
     text-decoration:underline;
     opacity:.8;
 }
@@ -113,14 +113,15 @@ form {
 }
 .version-number {
     position:relative;
-    right:-396px;
-    top:-109px;
+    right:-390px;
+    top:-106px;
     line-height:38px;
     color:#5e5d5d;
     font-family:arial;
-    font-size:12.5px;
+    font-size:11.5px;
     font-weight:normal;
     text-decoration:none;
+    letter-spacing:0.5px;
 }
 #username-label {
     font-family:arial;
@@ -163,4 +164,8 @@ form {
     border-radius:0px;
     border-width:0.5px;
     border-color:#4560b5;
+}
+#skyward-logo {
+    position:relative;
+    top:-8px;
 }
