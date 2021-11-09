@@ -106,10 +106,10 @@ form {
     text-decoration:underline;
 }
 #username:focus {
-    background-color:#C896DF;
+    background-color:#d0b0ff;
 }
 #password:focus {
-    background-color:#C896DF;
+    background-color:#d0b0ff;
 }
 .version-number {
     position:relative;
