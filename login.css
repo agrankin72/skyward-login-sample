@@ -1,5 +1,13 @@
 body {
-    background-image:linear-gradient(#e3effb,white);
+    background-image:
+        linear-gradient(
+            to bottom, 
+            #e4ecfc, 
+            #ecf4fc, 
+            #f4f4fc,
+            #fcf8fc,
+            #fcf4fc
+        );
     border:0px;
     padding-top:0px;
     height:649px;
