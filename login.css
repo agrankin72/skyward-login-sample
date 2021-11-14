@@ -1,13 +1,5 @@
 body {
-    background-image:
-        linear-gradient(
-            to bottom, 
-            #e4ecfc, 
-            #ecf4fc, 
-            #f4f4fc,
-            #fcf8fc,
-            #fcf4fc
-        );
+    background-image:linear-gradient(#e4ecfc,#fcf8fc);
     border:0px;
     padding-top:0px;
     height:649px;
@@ -27,6 +19,7 @@ img {
     display:block;
     margin:auto;
 }
+/* OPRF hyperlink */
 #oprf {
     display:block;
     text-align:center;
@@ -61,8 +54,6 @@ footer {
     color:#828282;
     position:relative;
     top:122px;
-    font-family:arial;
-    font-size:12px;
 }
 #skyward:hover {
     text-decoration:underline;
@@ -81,32 +72,33 @@ form {
 }
 #submit {
     position:relative;
-    right:-96px;
+    right:-100px;
     color:#135383;
     border-color:#80BBE9;
     border-radius:5px;
-    width:75.5px;
-    top:-12px;
-    height:22px;
-    border-width:0.3px;
+    width:70px;
+    top:-10px;
+    border-width:0.5px;
     background-color:#f2f4f7;
-    font-size:11.4px;
+    box-shadow:0px 1.5px #cecece;
 }
+/* Forgot password h tag */
 #forgot-password {
     position:relative;
-    right:-219px;
-    top:-33.5px;
+    right:-218px;
+    top:-30px;
     color:#4560b5;
     line-height:41px;
     font-family:arial;
-    font-size:12px;
+    font-size:11.5px;
     font-weight:normal;
 }
 #submit:hover {
-    background-color:#abd0ed;
+    background-color:#9CC6E7;
     text-decoration:underline;
     opacity:.8;
 }
+/* Forgot password a tag */
 #forgot-password-a {
     text-decoration:none;
 }
@@ -114,22 +106,21 @@ form {
     text-decoration:underline;
 }
 #username:focus {
-    background-color:#d0b0ff;
+    background-color:#C896DF;
 }
 #password:focus {
-    background-color:#d0b0ff;
+    background-color:#C896DF;
 }
 .version-number {
     position:relative;
-    right:-390px;
-    top:-106px;
+    right:-396px;
+    top:-102px;
     line-height:38px;
     color:#5e5d5d;
     font-family:arial;
-    font-size:11.5px;
+    font-size:0.75em;
     font-weight:normal;
     text-decoration:none;
-    letter-spacing:0.5px;
 }
 #username-label {
     font-family:arial;
