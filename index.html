@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="login.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" href="https://fsba.org/wp-content/uploads/2018/03/Skyward-Logo.jpg">
-        <title>Login - Powered by Skyward</title>
     </head>
     <body>
-        <img id="oprf-pic"src="https://skyward.iscorp.com/scripts/wsisa.dll/WService=wseduoakparkrfil/qdirconfig002.p?ublobid=279516&asInline=yes&pEnc=bwtjAbkvchtfbrbk">
-        <br>
-        <br>
-        <div id="top-div">
-            <img id="skyward-pic" src="https://skyward.iscorp.com/webspeed/wfssky01.gif">
+            <img id="oprf-pic"src="https://skyward.iscorp.com/scripts/wsisa.dll/WService=wseduoakparkrfil/qdirconfig002.p?ublobid=279516&asInline=yes&pEnc=bwtjAbkvchtfbrbk" alt="Oak Park River Forrest picture">
             <br>
-            <a id="oprf" href="http://www.oprfhs.org/">OAK PARK and RIVER FOREST HSD200</a>
             <br>
-        </div>
-        <div id="bottom-div">
-            <br>
-            <form id="form"action="/action_page.php">
-                <label for="username" id="username-label">Login ID:</label>
-                <input type="text" id="username" name="username" required>
+            <div id="top-div">
+                <img id="skyward-pic" src="https://skyward.iscorp.com/webspeed/wfssky01.gif" alt="skyward-logo">
                 <br>
+                <a id="oprf" href="http://www.oprfhs.org/">OAK PARK and RIVER FOREST HSD200</a>
                 <br>
-                <label for="password" id="password-label">Password:</label>
-                <input type="password" id="password" name="password" required>
+            </div>
+            <div id="bottom-div">
                 <br>
+                <form id="form"action="/action_page.php">
+                    <label for="username" id="username-label">Login ID:</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                    <br>
+                    <br>
+                    <label for="password" id="password-label">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                    <br>
+                    <br>
+                    <input type="submit" id="submit" value="Sign in">
+                </form>
+                <a id="forgot-password-a"href="#"><h5 id="forgot-password">Forgot your Login/Password?</h5></a> 
                 <br>
-                <input type="button" id="submit" onclick="window.open('sample-page.html')" value="Sign in">
-            </form>
-            <a id="forgot-password-a"href="forgot-password.html"><h5 id="forgot-password">Forgot your Login/Password?</h5></a> 
-            <br>
-            <h5 class="version-number">05.21.10.00.02</h5>
-        </div>
-        <footer>
-            <small id="copywrite">© 2021 <a id="skyward"href="http://www.skyward.com/">Skyward, Inc.</a> All rights reserved.</small>
-        </footer>
+                <h5 class="version-number">05.21.10.00.02</h5>
+            </div>
+            <footer>
+                <small id="copywrite">© 2021 <a id="skyward"href="http://www.skyward.com/">Skyward, Inc.</a> All rights reserved.</small>
+            </footer>
     </body>
 </html>
 <!-- Not for official use, just a project of mine. If you have any concerns, you can always contact me -->
