@@ -21,7 +21,7 @@ body {
     border-left:solid 2px #e3e6e9;
     border-right:solid 2px #e2e3e4;
     border-top:solid 1px #eeeeee;
-    border-radius:3px;
+    border-radius: 3px 3px 0 0;
     padding-bottom:0px;
 }
 img {
@@ -54,7 +54,7 @@ img {
     border-left:solid 2px #e3e6e9;
     border-top:solid 1px #e2e2e2;
     padding-top:10px;
-    border-radius:3px;
+    border-radius: 0 0 3px 3px;
 }
 footer {
     text-align:center;
