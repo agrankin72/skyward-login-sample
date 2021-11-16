@@ -18,9 +18,9 @@ body {
     background-color:white;
     width:486px;
     height:155px;
-    border-left:solid 2px #e0e4e9;
+    border-left:solid 2px #e3e6e9;
     border-right:solid 2px #e2e3e4;
-    border-top:solid 1px #e2e3e4;
+    border-top:solid 1px #eeeeee;
     border-radius:3px;
     padding-bottom:0px;
 }
@@ -84,7 +84,7 @@ form {
 #submit {
     position:relative;
     right:-96px;
-    color:#135383;
+    color:#1b63aa;
     border-color:#80BBE9;
     border-radius:5px;
     width:75.5px;
@@ -105,9 +105,19 @@ form {
     font-weight:normal;
 }
 #submit:hover {
-    background-color:#abd0ed;
+    background-image:
+        linear-gradient(
+            to bottom,
+            #fefeff,
+            #f7f8fd,
+            #e7ebf9,
+            #e6eaf9,
+            #dbe2f7,
+            #d8def6,
+            #cdd6f3,
+            #c7d1f3
+        );
     text-decoration:underline;
-    opacity:.8;
 }
 #forgot-password-a {
     text-decoration:none;
@@ -161,9 +171,10 @@ form {
     position:relative;
     top:-1px;
     right:-10px;
+    border:solid;
     border-radius:0px;
-    border-width:.5px;
-    border-color:#4560b5;
+    border-width:0.5px;
+    border-color:#7f9db9;
 }
 #password {
     position:relative;
@@ -171,9 +182,9 @@ form {
     right:-6px;
     width:190px;
     height:22px;
+    border:solid;
     border-radius:0px;
     border-width:0.5px;
-    border-color:#4560b5;
 }
 .form-control:valid {
     background-color:#d0ffb0;
