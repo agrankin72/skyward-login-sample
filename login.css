@@ -185,8 +185,10 @@ form {
     border:solid;
     border-radius:0px;
     border-width:0.5px;
+    border-color:#7f9db9;
 }
 .form-control:valid {
     background-color:#d0ffb0;
     border-color:#7f9db9;
+    border:solid
 }
