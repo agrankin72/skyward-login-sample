@@ -18,8 +18,10 @@ body {
     background-color:white;
     width:486px;
     height:155px;
-    border-left:solid 1.5px #ebecee;
-    border-right:solid 1.5px #e6eaef;
+    border-left:solid 2px #e0e4e9;
+    border-right:solid 2px #e2e3e4;
+    border-top:solid 1px #e2e3e4;
+    border-radius:3px;
     padding-bottom:0px;
 }
 img {
@@ -42,15 +44,17 @@ img {
     text-decoration:none;
 }
 #bottom-div {
-display:block;
+    display:block;
     margin:auto;
     background-color:#f4f4f4;
     width:486px;
     height:175px;
     border-bottom:solid 2.5px #b6b6b6;
-    border-right:solid 1.5px #edecee;
-    border-left:solid 1.5px #ebecee;
+    border-right:solid 2px #e3e6e9;
+    border-left:solid 2px #e3e6e9;
+    border-top:solid 1px #e2e2e2;
     padding-top:10px;
+    border-radius:3px;
 }
 footer {
     text-align:center;
