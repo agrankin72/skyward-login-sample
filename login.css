@@ -39,6 +39,9 @@ img {
     bottom:0px;
     right:-79px;
 }
+#oprf:focus {
+    background-color:#d0b0ff;
+}
 #skyward {
     color:#135383;
     text-decoration:none;
