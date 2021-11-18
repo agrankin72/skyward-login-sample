@@ -46,6 +46,9 @@ img {
     color:#135383;
     text-decoration:none;
 }
+#skyward:focus {
+    background-color:#d0b0ff;
+}
 #bottom-div {
     display:block;
     margin:auto;
