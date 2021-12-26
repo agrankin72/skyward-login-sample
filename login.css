@@ -154,6 +154,7 @@ form {
     font-weight:normal;
     text-decoration:none;
     letter-spacing:0.5px;
+    cursor:default;
 }
 #username-label {
     font-family:arial;
