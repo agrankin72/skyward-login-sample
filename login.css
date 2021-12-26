@@ -72,6 +72,9 @@ footer {
     font-family:arial;
     font-size:12px;
 }
+#copywrite:hover {
+    cursor:default;
+}
 #skyward:hover {
     text-decoration:underline;
 }
